@@ -9,6 +9,6 @@ public class Lab2_Q2{
         float b = input.nextFloat();
         float c = input.nextFloat();
         float average = (a + b + c)/3;
-        System.out.print(average);
+        System.out.print("The average of " + a + " " + b + " " + c + " is " +average);
     }
 }
