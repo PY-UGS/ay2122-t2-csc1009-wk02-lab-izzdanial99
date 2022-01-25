@@ -48,6 +48,6 @@ public class Lab2_Q4{
             default:
                 break;
         }
-
+        input.close();
     }
 }
