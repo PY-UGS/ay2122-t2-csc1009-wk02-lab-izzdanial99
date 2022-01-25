@@ -8,7 +8,7 @@ public class Lab2_Q3{
         long totalMinutes = totalSeconds/60;
         long currentMinutes = totalMinutes%60;
         long totalHours = totalMinutes/60;
-        long currentHours = totalHours%60;
+        long currentHours = totalHours%24;
 
         System.out.printf("Current time is %d:%d:%d GMT",currentHours,currentMinutes,currentSeconds);
     }
